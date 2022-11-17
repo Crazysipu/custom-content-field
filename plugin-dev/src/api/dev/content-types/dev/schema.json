@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "devs",
+  "info": {
+    "singularName": "dev",
+    "pluralName": "devs",
+    "displayName": "dev",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "country_state_city": {
+      "type": "customField",
+      "customField": "plugin::country-state-city.csc-dropdown"
+    }
+  }
+}

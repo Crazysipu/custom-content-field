@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "billings",
+  "info": {
+    "singularName": "billing",
+    "pluralName": "billings",
+    "displayName": "Billing",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "orderName": {
+      "type": "string"
+    },
+    "orderPrice": {
+      "type": "biginteger"
+    },
+    "orderDate": {
+      "type": "datetime"
+    },
+    "orderCountry": {
+      "type": "customField",
+      "customField": "plugin::country-state-city.csc-dropdown"
+    },
+    "country_state": {
+      "type": "customField",
+      "customField": "plugin::country-state-city.csc-dropdown"
+    }
+  }
+}
