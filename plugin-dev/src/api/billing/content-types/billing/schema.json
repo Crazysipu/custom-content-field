@@ -20,14 +20,6 @@
     },
     "orderDate": {
       "type": "datetime"
-    },
-    "orderCountry": {
-      "type": "customField",
-      "customField": "plugin::country-state-city.csc-dropdown"
-    },
-    "country_state": {
-      "type": "customField",
-      "customField": "plugin::country-state-city.csc-dropdown"
     }
   }
 }
