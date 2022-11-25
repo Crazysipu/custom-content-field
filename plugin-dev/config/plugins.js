@@ -4,5 +4,4 @@ module.exports = {
       enabled: true,
       resolve: './src/plugins/country-state-city'
     },
-    // ...
   }

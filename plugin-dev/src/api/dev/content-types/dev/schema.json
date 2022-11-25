@@ -18,7 +18,7 @@
     "email": {
       "type": "email"
     },
-    "country_state_city": {
+    "country_state": {
       "type": "customField",
       "customField": "plugin::country-state-city.csc-dropdown"
     }
